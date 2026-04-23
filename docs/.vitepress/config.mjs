@@ -55,6 +55,12 @@ export default withMermaid(defineConfig({
                 { text: 'CubeProxy TLS', link: '/guide/cubeproxy-tls' },
                 { text: 'Authentication', link: '/guide/authentication' }
               ]
+            },
+            {
+              text: 'Developer Docs',
+              items: [
+                { text: 'Connect to an Existing Cube Cluster', link: '/guide/connect-existing-cluster' }
+              ]
             }
           ],
           '/architecture/': [
@@ -114,6 +120,12 @@ export default withMermaid(defineConfig({
                 { text: '模板检查与请求预览', link: '/zh/guide/template-inspection-and-preview' },
                 { text: 'CubeProxy TLS 配置', link: '/zh/guide/cubeproxy-tls' },
                 { text: '鉴权', link: '/zh/guide/authentication' }
+              ]
+            },
+            {
+              text: '开发文档',
+              items: [
+                { text: '连接到已有 Cube 集群', link: '/zh/guide/connect-existing-cluster' }
               ]
             }
           ],
